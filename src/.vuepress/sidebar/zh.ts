@@ -4,9 +4,9 @@ export const zhSidebar = sidebar({
   "/": [
     "",
     {
-      text: "文章",
+      text: "OI",
       icon: "note",
-      prefix: "posts/",
+      prefix: "OI/",
       children: "structure",
     },
     "intro",
