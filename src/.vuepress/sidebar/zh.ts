@@ -10,6 +10,5 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     "intro",
-    "slides",
   ],
 });

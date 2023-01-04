@@ -8,12 +8,9 @@ export const zhNavbar = navbar([
     icon: "edit",
     prefix: "/OI",
     children: [
-      { text: "c++", icon: "discover", link: "/cpp.html" }
+      { text: "c++", icon: "note", link: "/cpp/" },
+      { text: "python", icon: "note", link: "/python/" },
+      { text: "工具", icon: "note", link: "/tools/" },
     ],
-  },
-  {
-    text: "V2 文档",
-    icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/zh/",
   },
 ]);
