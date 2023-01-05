@@ -48,3 +48,5 @@ footer: 向着梦想远航！
 相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home/)。
 
 <a target="_blank" href="http://www.freecdn.pw/?zzwz" title="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）" alt="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）">本站由免费云加速（FreeCDN）提供网站加速和攻击防御服务</a>
+<a target="_blank" href="http://www.freecdn.pw/?zzlogo" title="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）" ><img src="http://www.freecdn.pw/images/zzlogo.png" width="150" height="80
+" alt="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）"></a>
