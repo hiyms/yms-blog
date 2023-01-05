@@ -72,7 +72,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "前进四！",
+      footer: "[]",
 
       displayFooter: true,
 
