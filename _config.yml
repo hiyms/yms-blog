@@ -2,10 +2,10 @@ title: YMS的BLOG
 subtitle: For future
 description: ''
 keywords: null
-author: John Doe
-language: en
+author: yms
+language: zh-cn
 timezone: Asia/Shanghai
-url: http://example.com
+url: https://blog.frgcn.tk
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
