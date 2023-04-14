@@ -7,7 +7,7 @@ logo: /img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: https://smms.app/image/mlkSoMnPw7cj6rE
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -29,11 +29,11 @@ head:
         icons:
             -
                 # The path to the image file
-                src: ''
+                src: 'https://s2.loli.net/2023/04/14/mlkSoMnPw7cj6rE.jpg'
                 # A string containing space-separated image dimensions
-                sizes: ''
+                sizes: '640x640'
                 # A hint as to the media type of the image
-                type: 
+                # type: ''
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
