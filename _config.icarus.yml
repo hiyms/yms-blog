@@ -51,10 +51,10 @@ head:
         image: 
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 
+        site_name: YMS的BLOG
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: yms
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description: 
@@ -100,7 +100,7 @@ head:
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
         - ''
     # URL or path to the website's RSS atom.xml
-    rss: 
+    rss: ./rss.xml
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
@@ -109,7 +109,7 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
-        About: /about
+        About: /about/me
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
@@ -165,50 +165,49 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+    type: changyan
+    app_id: cywCRfMOt
+    conf: prod_4452dcba814361f268ea4fea5acbee2e
+
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
-donates:
-    # "Afdian.net" donate button configurations
-    -
-        type: afdian
-        # URL to the "Afdian.net" personal page
-        url: ''
-    # Alipay donate button configurations
-    -
-        type: alipay
-        # Alipay qrcode image URL
-        qrcode: ''
-    # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
-        # URL to the "Buy me a coffee" page
-        url: ''
-    # Patreon donate button configurations
-    -
-        type: patreon
-        # URL to the Patreon page
-        url: ''
-    # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
-    # Wechat donate button configurations
-    -
-        type: wechat
-        # Wechat qrcode image URL
-        qrcode: ''
+# donates:
+#     # "Afdian.net" donate button configurations
+#     -
+#         type: afdian
+#         # URL to the "Afdian.net" personal page
+#         url: ''
+#     # Alipay donate button configurations
+#     -
+#         type: alipay
+#         # Alipay qrcode image URL
+#         qrcode: ''
+#     # "Buy me a coffee" donate button configurations
+#     -
+#         type: buymeacoffee
+#         # URL to the "Buy me a coffee" page
+#         url: ''
+#     # Patreon donate button configurations
+#     -
+#         type: patreon
+#         # URL to the Patreon page
+#         url: ''
+#     # Paypal donate button configurations
+#     -
+#         type: paypal
+#         # Paypal business ID or email address
+#         business: ''
+#         # Currency code
+#         currency_code: USD
+#     # Wechat donate button configurations
+#     -
+#         type: wechat
+#         # Wechat qrcode image URL
+#         qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: ''
+    type: bdshare
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
