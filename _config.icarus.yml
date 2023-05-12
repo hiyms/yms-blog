@@ -7,7 +7,7 @@ logo: /img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: https://smms.app/image/mlkSoMnPw7cj6rE
+    favicon: https://s2.loli.net/2023/04/14/mlkSoMnPw7cj6rE.jpg
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -268,6 +268,7 @@ widgets:
         # Names and URLs of the sites
         links:
             TC: https://www.tctdr.tk
+            洞悉报: http://121.37.119.12/
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -295,14 +296,14 @@ widgets:
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
     # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: adsense
+    #     # AdSense client ID
+    #     client_id: ''
+    #     # AdSense AD unit ID
+    #     slot_id: ''
     # Follow.it email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -395,6 +396,6 @@ providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
     cdn: jsdelivr
     # Name or URL template of the webfont CDN provider
-    fontcdn: google
+    fontcdn: ustc
     # Name or URL of the fontawesome icon font CDN provider
     iconcdn: fontawesome
