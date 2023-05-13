@@ -1,5 +1,5 @@
 ---
-title: Python | 环境搭建
+title: Python教程 | 环境搭建
 date: 2023-05-12 23:25:08
 tags:
     - "教程"
@@ -8,6 +8,8 @@ categories:
 - "教程"
 - "Python"
 ---
+本文章将介绍Python开发环境的搭建
+<!-- more -->
 ## 主要内容
 - Cpython的下载、安装和配置
 - VS code的安装、配置

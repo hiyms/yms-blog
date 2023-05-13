@@ -3,7 +3,9 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo:
+    text: YMS'S BLOG
+
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -387,14 +389,14 @@ plugins:
         security: 
     # Twitter conversion tracking plugin settings
     # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
-    twitter_conversion_tracking:
-        # Twitter Pixel ID
-        pixel_id: 
+    # twitter_conversion_tracking:
+    #     # Twitter Pixel ID
+    #     pixel_id: 
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
-    cdn: jsdelivr
+    cdn: unpkg
     # Name or URL template of the webfont CDN provider
     fontcdn: ustc
     # Name or URL of the fontawesome icon font CDN provider
