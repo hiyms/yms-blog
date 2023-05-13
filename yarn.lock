@@ -1060,6 +1060,13 @@ archy@^1.0.0:
   resolved "https://registry.npmmirror.com/archy/-/archy-1.0.0.tgz"
   integrity sha512-Xg+9RwCg/0p32teKdGMPTPnVXKD0w3DfHnFTficozsAgsvq2XenPJq/MYpzzQ/v8zrOyJn6Ds39VA4JIDwFfqw==
 
+argparse@^1.0.7:
+  version "1.0.10"
+  resolved "https://registry.npmmirror.com/argparse/-/argparse-1.0.10.tgz"
+  integrity sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
+  dependencies:
+    sprintf-js "~1.0.2"
+
 argparse@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmmirror.com/argparse/-/argparse-2.0.1.tgz"
@@ -1536,6 +1543,11 @@ entities@^4.4.0:
   resolved "https://registry.npmmirror.com/entities/-/entities-4.5.0.tgz"
   integrity sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==
 
+entities@~1.1.1:
+  version "1.1.2"
+  resolved "https://registry.npmmirror.com/entities/-/entities-1.1.2.tgz"
+  integrity sha512-f2LZMYl1Fzu7YSBKg+RoROelpOaNrcGmE9AZubeDfrCEia483oW4MI4VyFd5VNHIgQ/7qm1I0wUHK1eJnn2y2w==
+
 escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmmirror.com/escalade/-/escalade-3.1.1.tgz"
@@ -1715,6 +1727,13 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
+
+hexo-admonition@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmmirror.com/hexo-admonition/-/hexo-admonition-1.1.2.tgz"
+  integrity sha512-0TtXPe9aZBqqHPXJ77xyUck4qr3RsYkiq5tVrdgJyEYxREFfx2XcRgQh0fro5Vl1F8nmG2FraxeW2QLNUO8eaA==
+  dependencies:
+    markdown-it "^9.1.0"
 
 hexo-cli@^4.3.0:
   version "4.3.0"
@@ -2215,6 +2234,13 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+linkify-it@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.npmmirror.com/linkify-it/-/linkify-it-2.2.0.tgz"
+  integrity sha512-GnAl/knGn+i1U/wjBz3akz2stz+HrHLsxMwHQGofCDfPvlf+gDKN58UtfmUquTY4/MXeE2x7k19KQmeoZi94Iw==
+  dependencies:
+    uc.micro "^1.0.1"
+
 locate-path@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmmirror.com/locate-path/-/locate-path-3.0.0.tgz"
@@ -2257,10 +2283,26 @@ make-dir@^2.0.0, make-dir@^2.1.0:
     pify "^4.0.1"
     semver "^5.6.0"
 
+markdown-it@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.npmmirror.com/markdown-it/-/markdown-it-9.1.0.tgz"
+  integrity sha512-xHKG4C8iPriyfu/jc2hsCC045fKrMQ0VexX2F1FGYiRxDxqMB2aAhF8WauJ3fltn2kb90moGBkiiEdooGIg55w==
+  dependencies:
+    argparse "^1.0.7"
+    entities "~1.1.1"
+    linkify-it "^2.0.0"
+    mdurl "^1.0.1"
+    uc.micro "^1.0.5"
+
 marked@^4.1.1:
   version "4.3.0"
   resolved "https://registry.npmmirror.com/marked/-/marked-4.3.0.tgz"
   integrity sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==
+
+mdurl@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/mdurl/-/mdurl-1.0.1.tgz"
+  integrity sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==
 
 micro-memoize@^4.0.11:
   version "4.0.14"
@@ -2803,6 +2845,11 @@ sprintf-js@^1.0.3:
   resolved "https://registry.npmmirror.com/sprintf-js/-/sprintf-js-1.1.2.tgz"
   integrity sha512-VE0SOVEHCk7Qc8ulkWw3ntAzXuqf7S2lvwQaDLRnUeIEaKNQJzV6BwmLKhOqT61aGhfUMrXeaBk+oDGCzvhcug==
 
+sprintf-js@~1.0.2:
+  version "1.0.3"
+  resolved "https://registry.npmmirror.com/sprintf-js/-/sprintf-js-1.0.3.tgz"
+  integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
+
 statuses@~1.5.0:
   version "1.5.0"
   resolved "https://registry.npmmirror.com/statuses/-/statuses-1.5.0.tgz"
@@ -2937,6 +2984,11 @@ type-check@~0.3.2:
   integrity sha512-ZCmOJdvOWDBYJlzAoFkC+Q0+bUyEOS1ltgp1MGU03fqHG+dbi9tBFU2Rd9QKiDZFAYrhPh2JUf7rZRIuHRKtOg==
   dependencies:
     prelude-ls "~1.1.2"
+
+uc.micro@^1.0.1, uc.micro@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.npmmirror.com/uc.micro/-/uc.micro-1.0.6.tgz"
+  integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"

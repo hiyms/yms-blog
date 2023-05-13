@@ -16,8 +16,12 @@ categories:
 ## 配置Cpython解释器
 Cpython是官方提供的python解释器，附带了许多实用工具。
 ### 下载
-1. 打开Cpython官方[下载](https://www.python.org/downloads/)链接
-2. 选择Python版本，这里以[Python 3.11.3](https://www.python.org/downloads/release/python-3113/)为例
+1. 打开Cpython官方[下载](https://www.python.org/downloads/)链接  
+2. 选择Python版本，这里以[Python 3.11.3](https://www.python.org/downloads/release/python-3113/)为例  
+
+!!! warning ""
+    如果您使用`Windows 7`，那么你必须使用`Python 3.4`或更低版本。   
+
 ![选择Python版本](https://s2.loli.net/2023/05/13/YuesGmqkhZJNRgV.png)
 3. 下拉，选择适合你操作系统的发行版本。如果你并不知道要选择哪个版本，那么`Windows installer (64-bit)`可能是个很好的选择。
 ![选择Python发行版本](https://s2.loli.net/2023/05/13/a5DAbdiWmnE9fyo.png)
