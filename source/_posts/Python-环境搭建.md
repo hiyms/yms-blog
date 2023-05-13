@@ -4,6 +4,9 @@ date: 2023-05-12 23:25:08
 tags:
     - "教程"
     - "Python"
+categories:
+- "教程"
+- "Python"
 ---
 ## 主要内容
 - Cpython的下载、安装和配置
