@@ -5,7 +5,7 @@ tags:
     - "教程"
     - "Python"
 categories:
-- "教程"
+- "信息技术"
 - "Python"
 ---
 本文章将介绍Python开发环境的搭建

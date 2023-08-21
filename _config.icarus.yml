@@ -167,9 +167,27 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: changyan
-    app_id: cywCRfMOt
-    conf: prod_4452dcba814361f268ea4fea5acbee2e
+    type: waline
+    server_url: https://talk.ymsblog.top/
+    path: window.location.pathname                # 可选填
+    lang: zh-CN                                   # 可选填
+    locale:                                       # 可选填
+        placeholder: 'Comment here...'
+    emoji:                                        # 可选填
+        - '//unpkg.com/@waline/emojis@1.0.1/weibo'
+    dark: auto                                    # 可选填
+    meta: ["nick", "mail", "link"]                # 可选填
+    required_meta: []                             # 可选填
+    login: enable                                 # 可选填
+    word_limit: 0                                 # 可选填
+    page_size: 10                                 # 可选填
+    image_uploader: false                         # 可选填
+    highlighter: true                             # 可选填
+    tex_renderer: false                           # 可选填
+    search: false                                 # 可选填
+    pageview: false                               # 可选填
+    comment: false                                # 可选填
+    copyright: true 
 
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
@@ -227,7 +245,7 @@ widgets:
     # Profile widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
+        position: left
         type: profile
         # Author name
         author: YMS
@@ -248,6 +266,9 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: https://github.com/hiyms
+            BiliBili:
+                icon: fab fa-bilibili
+                url: https://space.bilibili.com/1596150060
             # RSS:
             #     icon: fas fa-rss
             #     url: /
@@ -280,17 +301,17 @@ widgets:
     # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: recent_posts
     # Archives widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: archives
     # Tags widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: tags
         # How to order tags. For example 'name' to order by name in ascending order, and '-length' to order by number of posts in each tags in descending order
         order_by: name
@@ -310,7 +331,7 @@ widgets:
     # Follow.it email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: followit
         # Hint text under the email input
         description: 
@@ -393,12 +414,18 @@ plugins:
     # twitter_conversion_tracking:
     #     # Twitter Pixel ID
     #     pixel_id: 
+    hexo-generator-feed: true
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
     cdn: unpkg
     # Name or URL template of the webfont CDN provider
-    fontcdn: ustc
+    fontcdn: fontim
     # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: fontawesome
+    iconcdn: loli
