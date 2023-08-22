@@ -254,7 +254,7 @@ widgets:
         # Author's current location
         location: 'China Shanxi'
         # URL or path to the avatar image
-        avatar: 
+        avatar: "https://file.yms.tdrweb.top/img/me.png"
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar

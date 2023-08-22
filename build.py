@@ -9,8 +9,5 @@ def main():
     log.info("启动")
     assert not os.system("npm run build")
     log.success("构建成功")
-    os.remove("./public/img/avatar.png")
-    wget.download(LOGO,"./public/img/avatar.png")
-    log.success("成功替换图片")
     
 main()
