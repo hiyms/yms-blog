@@ -258,7 +258,7 @@ widgets:
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
-        gravatar: yms_hi@outlook.com
+        # gravatar: yms_hi@outlook.com
         # URL or path for the follow button
         follow_link: https://github.com/hiyms
         # Links to be shown on the bottom of the profile widget
