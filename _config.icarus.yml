@@ -41,7 +41,7 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: WELCOME
+        title: YMS的BLOG
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
@@ -102,7 +102,7 @@ head:
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
         - ''
     # URL or path to the website's RSS atom.xml
-    rss: ./rss.xml
+    rss: ./atom.xml
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
@@ -269,9 +269,9 @@ widgets:
             BiliBili:
                 icon: fab fa-bilibili
                 url: https://space.bilibili.com/1596150060
-            # RSS:
-            #     icon: fas fa-rss
-            #     url: /
+            RSS:
+                icon: fas fa-rss
+                url: /atom.xml
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -331,7 +331,7 @@ widgets:
     # Follow.it email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
+        position: left
         type: followit
         # Hint text under the email input
         description: 

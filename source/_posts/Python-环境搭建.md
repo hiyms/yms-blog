@@ -7,12 +7,18 @@ tags:
 categories:
 - "信息技术"
 - "Python"
----
-本文章将介绍Python开发环境的搭建
-<!-- more -->
+description: "本文章将介绍Python开发环境的搭建
 ## 主要内容
 - Cpython的下载、安装和配置
 - VS code的安装、配置
+"
+---
+本文章将介绍Python开发环境的搭建
+
+## 主要内容
+- Cpython的下载、安装和配置
+- VS code的安装、配置
+<!-- more -->
 ## 配置Cpython解释器
 Cpython是官方提供的python解释器，附带了许多实用工具。
 ### 下载
