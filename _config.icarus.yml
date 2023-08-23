@@ -358,7 +358,7 @@ plugins:
         tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
@@ -399,7 +399,7 @@ plugins:
     mathjax: false
     # Enable the Outdated Browser plugin
     # http://outdatedbrowser.com/
-    outdated_browser: false
+    outdated_browser: true
     # Show a progress bar at top of the page on page loading
     progressbar: true
     # Statcounter statistics
@@ -409,14 +409,13 @@ plugins:
         project: 
         # Statcounter project security code
         security: 
+    hexo-generator-feed: true
     # Twitter conversion tracking plugin settings
     # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
     # twitter_conversion_tracking:
     #     # Twitter Pixel ID
     #     pixel_id: 
-    hexo-generator-feed: true
-    outdated_browser: true
-    busuanzi: true
+
 
 
 feed:
