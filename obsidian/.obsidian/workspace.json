@@ -8,20 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e077576c5a3afd25",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "b8b3f2102da8727f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "blog/推荐/软件/Obsidian 优秀的桌面笔记软件.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d53e308525e72d81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/windows/修改DNS服务器.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/推荐/软件/Obsidian 优秀的桌面笔记软件.md",
+                "file": "blog/windows/修改DNS服务器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/推荐/软件/Obsidian 优秀的桌面笔记软件.md",
+                "file": "blog/windows/修改DNS服务器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/推荐/软件/Obsidian 优秀的桌面笔记软件.md"
+                "file": "blog/windows/修改DNS服务器.md"
               }
             }
           }
@@ -155,10 +159,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b8b3f2102da8727f",
+  "active": "d53e308525e72d81",
   "lastOpenFiles": [
+    "blog/推荐/软件/Obsidian 优秀的桌面笔记软件.md",
+    "blog/windows/修改DNS服务器.md",
+    "blog/windows",
+    "未命名",
     "blog/推荐/软件",
-    "blog/推荐",
-    "blog/推荐/软件/Obsidian 优秀的桌面笔记软件.md"
+    "blog/推荐"
   ]
 }

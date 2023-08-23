@@ -415,6 +415,9 @@ plugins:
     #     # Twitter Pixel ID
     #     pixel_id: 
     hexo-generator-feed: true
+    outdated_browser: true
+    busuanzi: true
+
 
 feed:
   type: atom
@@ -426,6 +429,6 @@ providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
     cdn: unpkg
     # Name or URL template of the webfont CDN provider
-    fontcdn: fontim
+    fontcdn: ustc
     # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: loli
+    iconcdn: fontawesome

@@ -8,9 +8,9 @@ categories:
 - "信息技术"
 - "Python"
 description: "本文章将介绍Python开发环境的搭建
-## 主要内容
-- Cpython的下载、安装和配置
-- VS code的安装、配置
+主要内容
+1. Cpython的下载、安装和配置
+2. VS code的安装、配置
 "
 ---
 本文章将介绍Python开发环境的搭建
