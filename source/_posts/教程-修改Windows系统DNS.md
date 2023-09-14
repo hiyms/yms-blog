@@ -23,9 +23,9 @@ DNS服务器中保存了一张域名和与之相对应的IP地址 的表，以�
 ![](https://file.yms.tdrweb.top/img/ymsblog/change_dns_win/4.png)
 5. 双击`Internet 协议版本 4`
 ![](https://file.yms.tdrweb.top/img/ymsblog/change_dns_win/5.png)
-{% message color:info %}
+{% note color:info %}
     若要修改IPv6 DNS，请选择`Internet 协议版本 6`
-{% endmessage %}  
+{% endnote %}  
 6. 选择`使用下面的DNS服务器地址`
 ![](https://file.yms.tdrweb.top/img/ymsblog/change_dns_win/6.png)
 7. 在`首选DNS服务器`与`备用DNS服务器`中填写你要使用的DNS

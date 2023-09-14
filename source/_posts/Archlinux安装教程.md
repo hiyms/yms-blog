@@ -92,9 +92,7 @@ set 1 boot on
 <!-- endtab -->
 {% endtabs %}
 
-{% message color:warning %}
-    该操作是不可逆的，请提前备份你硬盘的数据
-{% endmessage %}  
+
 
 当配置完成后，你可以使用`quit`退出，请再次使用`lsblk`查看修改是否生效
 ![](https://file.yms.tdrweb.top/img/ymsblog/arch_installl/7.png)

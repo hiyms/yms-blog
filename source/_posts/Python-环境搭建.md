@@ -25,9 +25,9 @@ Cpython是官方提供的python解释器，附带了许多实用工具。
 1. 打开Cpython官方[下载](https://www.python.org/downloads/)链接  
 2. 选择Python版本，这里以[Python 3.11.3](https://www.python.org/downloads/release/python-3113/)为例  
 
-{% message color:warning size:small %}
+{% note color:warning size:small %}
     如果你使用`Windows7`或其他已停止支持的Windows版本，你可能无法使用最新的Python
-{% endmessage %}  
+{% endnote %}  
 
 ![选择Python版本](https://s2.loli.net/2023/05/13/YuesGmqkhZJNRgV.png)
 3. 下拉，选择适合你操作系统的发行版本。如果你并不知道要选择哪个版本，那么`Windows installer (64-bit)`可能是个很好的选择。
