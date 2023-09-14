@@ -112,8 +112,7 @@ mkfs.fat -F 32 /dev/sda1
 
 ### 挂载分区  
 
-{% tabs style:boxed %}
-<!-- tab id:mount_gpl title:GPL分区表 active -->
+
 ```shell
 mount /dev/sda2 /mnt
 mkdir /mnt/boot
@@ -122,8 +121,7 @@ mount /dev/sda1 /mnt/boot
 
 ----
 
-<!-- endtab -->
-<!-- tab id:mount_mbr title:MBR分区表 -->
+
 请将根磁盘卷挂载到`\mnt`，如果你完全遵循本教程，可以使用下面指令：
 ```shell
 mount /dev/sda1 /mnt
@@ -131,8 +129,7 @@ mount /dev/sda1 /mnt
 
 ----
 
-<!-- endtab -->
-{% endtabs %}
+
 
 ### 配置包管理源
 
@@ -212,8 +209,7 @@ passwd root
 pacman -Syu grub efibootmgr -y
 ```
 
-{% tabs style:boxed %}
-<!-- tab id:grub_gpl title:GPL分区表 active -->
+
 如果你的设备使用GPL分区表，请使用下面配置：
 ```shell
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
@@ -223,8 +219,6 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 ----
 
-<!-- endtab -->
-<!-- tab id:grub_mbr title:MBR分区表 -->
 如果你使用MBR分区表，请使用下面命令：
 ```shell
 grub-install --target=i386-pc /dev/sda
@@ -234,8 +228,6 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 ----
 
-<!-- endtab -->
-{% endtabs %}
 
 ### 重启电脑
 
