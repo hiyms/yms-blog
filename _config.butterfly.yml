@@ -54,7 +54,7 @@ disable_top_img: false
 index_img: https://file.yms.tdrweb.top/img/ymsblog/skins/f46908f1370cb78dcf1ac875fc089cb6.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:https://file.yms.tdrweb.top/img/ymsblog/skins/01a.jpg
+default_top_img: https://file.yms.tdrweb.top/img/ymsblog/skins/01a.jpg
 
 # The banner image of archive page
 archive_img:
