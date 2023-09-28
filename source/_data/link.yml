@@ -1,6 +1,10 @@
 - class_name: 友情链接
-  class_desc: ""
+  class_desc: "白云千里万里，明月前溪后溪"
   link_list:
+    - name: TDR WEB
+      link: https://www.tdrweb.top
+      avatar: https://file.yms.tdrweb.top/img/tdr-logo.png
+      descr: "记录生活的个人博客，重要合作伙伴"
     - name: XKZ的小站
       link: https://xkzblog.com
       avatar: https://file.yms.tdrweb.top/img/bilibili_xkz.jpg
