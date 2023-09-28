@@ -11,10 +11,11 @@ categories:
 toc: true
 ---  
 
+{% blockquote "ArchLinux Wiki" "https://wiki.archlinuxcn.org/wiki/Arch_Linux" %}
 Arch Linux 是一种通用操作系统，它是基于 x86-64 架构的一类GNU/Linux 发行版。  
 Arch Linux 采用滚动升级模式，尽全力为用户提供最新的稳定版软件。初始安装完成的 Arch Linux只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的个性化系统。 [1]  
+{% endblockquote %}
 
-<!-- more -->  
 
 下面开始安装教程  
 ## 准备安装镜像  
@@ -66,8 +67,6 @@ timedatectl # 查看设备时间
 ![](https://file.yms.tdrweb.top/img/ymsblog/arch_installl/5.png)
 如果你的设备使用BIOS引导，那么请使用MBR分区表；如果使用UEFI引导，请使用GPT分区表。需要注意的是，如果你的计算机曾经安装过系统，那么这一步并不是必须的，该操作会覆盖你硬盘的原始记录。
 随后，配置硬盘分区，对于GPT与MBR分区，它们的操作是不同的。
-{% tabs style:boxed %}
-<!-- tab id:part_gpl title:GPL分区表 active -->
 ```shell
 mklabel gpt
 mkpart ESP fat32 1M 513M
@@ -79,8 +78,6 @@ mkpart primary ext4 513M 100%
 
 ----
 
-<!-- endtab -->
-<!-- tab id:part_mbr title:MBR分区表 -->
 ```shell
 mklabel msdos
 mkpart primary ext4 1M 100%
@@ -89,8 +86,6 @@ set 1 boot on
 
 ----
 
-<!-- endtab -->
-{% endtabs %}
 
 
 
@@ -235,6 +230,3 @@ grub-mkconfig -o /boot/grub/grub.cfg
 使用`reboot`命令重启计算机以进行下一步配置
 
 
-----
-
-[1] : [Arch Linux - Arch Linux 中文维基 (archlinuxcn.org)](https://wiki.archlinuxcn.org/wiki/Arch_Linux)
