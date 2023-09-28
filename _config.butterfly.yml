@@ -16,6 +16,7 @@ menu:
   关于||fas fa-list:
     我: /about/me || fas fa-i
     版权声明: /about/LICENSE || fas fa-id-card
+    使用的服务: /about/serves
   友情链接: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
 
@@ -159,7 +160,7 @@ post_copyright:
   decode: true
   author_href:
   license: CC BY-NC-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  license_url: /about/LICENSE
 
 # Sponsor/reward
 reward:
