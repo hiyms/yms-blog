@@ -13,9 +13,9 @@ menu:
   Archives: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
+  关于||fas fa-list:
+    我: /about/me || fas fa-i
+    版权声明: /about/LICENSE || fas fa-id-card
   友情链接: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
 
@@ -33,8 +33,8 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/hiyms || Github || '#24292e'
+  fas fa-envelope: mailto:yms@ymsblog.top || Email || '#4a7dbe'
 
 # Image (圖片設置)
 # --------------------------------------
